@@ -1,0 +1,108 @@
+.post{
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+    text-decoration: none;
+    color: #000;
+}
+
+.post:hover{
+    transform: scale(1.05);
+}
+
+.reaction{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.inputComment{
+    width: 100%;
+    height: 50%;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    margin-left: 20px;
+    margin-right: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+    text-decoration: none;
+    color: #000;
+}
+
+.buttonReaction{
+    width: 10%;
+    height: 100%;
+    background-color: rgba(82, 232, 119, 0.3);
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    margin-right: 10px;
+    padding: 9px;
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    color: #000;
+}
+
+.buttonReaction:hover{
+    background-color: rgba(82, 232, 119, 0.5);
+}
+
+.buttonComment{
+    width: 20%;
+    height: 100%;
+    background-color: rgba(82, 180, 232, 0.3);
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    margin-right: 10px;
+    padding: 9px;
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    color: #000;
+}
+
+.buttonComment:hover{
+    background-color: rgba(82, 180, 232, 0.5);
+}
+
+.card-text{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: medium;
+}
+
+.comment{
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: all 0.2s ease-in-out;
+    text-decoration: none;
+    color: #000;
+}
+
+.comment:hover{
+    transform: scale(1.05);
+}

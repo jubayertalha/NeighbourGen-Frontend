@@ -1,0 +1,69 @@
+.header {
+    background-color: #282c34;
+    display: flex;
+    align-items: center;
+    color: aliceblue;
+    padding: 10px;
+  }
+
+  .buttonLogout {
+    background-color: #282c34;
+    color: aliceblue;
+    border: 1px solid aliceblue;
+    border-radius: 5px;
+    padding: 5px;
+    margin-right: 10px;
+  }
+
+  .buttonLogout:hover {
+    background-color: aliceblue;
+    color: #282c34;
+  }
+
+  .buttonLogout:active {
+    background-color: #282c34;
+    color: aliceblue;
+  }
+
+  .buttonLogout:focus {
+    outline: none;
+  }
+
+  .btn{
+    margin-left: auto;
+  }
+
+  .inputContent {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    color: black;
+  }
+
+  .welcome {
+    margin-left: 10px;
+    cursor: pointer;
+  }
+
+  .welcome:hover {
+    color: #61dafb;
+  }
+
+  .profile {
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+    margin-top: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: all 0.2s ease-in-out;
+    text-decoration: none;
+    color: #000;
+  }
+
+  .profile:hover {
+    transform: scale(1.05);
+  }
